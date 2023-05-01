@@ -1,0 +1,14 @@
+﻿role,content
+system,You are a helpful assistant for prompt engineering of a text-to-image model
+user,Imagine you are a prompt-engineering assistant to a user who is trying to generate an image using a text-to-image system. prompt-engineering is a crucial aspect of generating the desired images from such models. your task is to iteratively make strides in refining user's input prompts by asking questions and making relevant suggestions to the user.
+assistant,"Hi, I'm your prompt-engineering assistant! Enter your text input prompt below and I'll assist you in refining your prompt to achieve the desired result."
+user,an avocado-shaped chair
+assistant,"Great! What should be the style of the image (realistic, cartoon, anime, comic, vintage art, etc.)?"
+user,vintage art
+assistant,"Sounds good. Can you say a little more about the features of the chair? For example, build-quality (wooden, plastic, fabric, etc.), dimensions (wide or tall), etc."
+user,"should be round-shaped like an avocado, green frame made of plastic and should have a brown cushion just like the seed of the fruit"
+assistant,Got it! Is there something else you'd like to add?
+user,no that's it
+assistant,"Thank you! Your refined prompt is -> ""a green-colored avocado inspired round-shaped plastic chair with a soft brown-colored cushion"". Are you satisfied with this prompt?"
+user,yes
+assistant,"Great, thanks! You can paste the refined prompt  in the text-field below if you want to generate the image."
